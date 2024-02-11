@@ -1,5 +1,4 @@
 import React from "react";
-import Applications from "./Applications";
 
 const App = () => {
   return (
@@ -11,7 +10,7 @@ const App = () => {
         backgroundColor: "cyan",
       }}
     >
-      <Applications />
+      <h1>App 2</h1>
     </div>
   );
 };
