@@ -1,5 +1,5 @@
 {
-  "name": "main-container",
+  "name": "app1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
-    "build:start": "cd dist && PORT=3000 npx serve",
+    "build:start": "cd dist && PORT=3001 npx serve",
     "start": "webpack serve --open --mode development",
     "start:live": "webpack serve --open --mode development --live-reload --hot"
   },
@@ -44,7 +44,6 @@
     "@babel/preset-react": "^7.23.3",
     "css-loader": "^6.9.1",
     "external-remotes-plugin": "^1.0.0",
-    "interpolate-html-plugin": "^4.0.0",
     "style-loader": "^3.3.4"
   }
 }
