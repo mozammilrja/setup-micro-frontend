@@ -1,6 +1,6 @@
 # React Microphone Integration
 
-This project demonstrates how to integrate microphone functionality into a React application using the `react-media-recorder` package.
+This project demonstrates how to integrate microphone functionality into a React application using the `Webpack Module Federation ` package.
 
 ## Getting Started
 
